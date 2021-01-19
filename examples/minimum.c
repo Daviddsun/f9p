@@ -7,10 +7,10 @@
 #include <nmea.h>
 #include <nmea/gpgll.h>
 
-struct nmea_ss{
-	nmea_t type;
-	int errors;
-} *data ;
+// struct nmea_ss{
+// 	nmea_t type;
+// 	int errors;
+// } *data ;
 int
 main(void)
 {
@@ -21,7 +21,7 @@ main(void)
 
 	// Pointer to struct containing the parsed data. Should be freed manually.
 	nmea_s *data;
-	data = (struct nmea_ss *)malloc(sizeof (struct nmea_ss));
+	// data = (struct nmea_ss *)malloc(sizeof (struct nmea_ss));
 
 	// Parse...
 	printf("before data````");
